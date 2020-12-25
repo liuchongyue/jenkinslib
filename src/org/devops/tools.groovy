@@ -1,5 +1,4 @@
 package org.devops
-{
 //格式化输出
 def printMsg(value,color){
     colors = ['red'   : "\033[40;31m >>>>>>>>>>>${value}<<<<<<<<<<< \033[0m",
@@ -9,6 +8,4 @@ def printMsg(value,color){
     ansiColor('xterm') {
         println(colors[color])
     }
-}
-
 }
