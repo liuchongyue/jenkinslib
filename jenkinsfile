@@ -4,7 +4,7 @@ def tools = new org.devops.tools()
 
 pipeline {
     agent any
-
+    hello ()
     stages {
         stage('Hello') {
             steps {
