@@ -1,7 +1,7 @@
 #!groovy
 @Library('jenkinslib') _
 def tools = new org.devops.tools()
-hello()
+hellow()
 pipeline {
     agent any
     
